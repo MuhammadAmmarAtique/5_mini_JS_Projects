@@ -69,10 +69,14 @@ button
     border-radius: 0.2rem;
     margin: 0.2rem;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: all 0.1s ease-in;
+    /*  */
+    color: white;
+    background-color:saddlebrown;
+
 }
 
-#b1
+/* #b1
 {
     color: black;
     background-color: rgba(153, 167, 192, 0.507);
@@ -80,8 +84,8 @@ button
 #b2
 {
     color: white;
-    background-color:seagreen;
-}
+    background-color:rgba(46, 139, 86, 0.9);
+} */
 
 button:active
 {
