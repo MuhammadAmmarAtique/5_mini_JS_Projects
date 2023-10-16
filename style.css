@@ -12,7 +12,6 @@ width: 100%;
 }
 /* Main styling starts here */
 
-/* 1. */
 #bulb
 {
     height: 7rem;
@@ -24,11 +23,11 @@ width: 100%;
 /* bb= bulbbutton */
 #bb
 {
-    margin: 2rem;
+    margin-left: 3rem;
     padding: 0.2rem 0.6rem;
 }
 
-.bb-bg
+/* .bb-bg
 {
     background-color: yellow;
-}
+} */
