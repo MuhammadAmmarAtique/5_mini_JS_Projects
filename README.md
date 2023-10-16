@@ -1,1 +1,1 @@
-Learning DOM-Learn what matters + Doing 5 projects using it by Sheryians Coding School (mentor: Sarthak Sharma).
+Doing 5 mini DOM projects taught by Sheryians Coding School (mentor: Sarthak Sharma).
