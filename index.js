@@ -17,23 +17,50 @@
 
 // 2. Activated "Adding Friends" feature by using 1 button only
 
+// WAY#1
+
+// let btn=document.querySelector('button');
+// let text2=document.querySelector('#text2');
+
+    // btn.addEventListener('click',()=>{
+    
+    //     if (btn.textContent== "Add Friend") 
+    //     {
+    //     text2.textContent='Friends';
+    //     text2.style.color='green';
+    //     btn.textContent='Remove Friend'; }
+    //     else
+    //     {
+    //     text2.textContent='Stranger';
+    //     text2.style.color='red';
+    //     btn.textContent='Add Friend';
+    //     }
+    
+    // })    
+
+// WAY#2
+
 let btn=document.querySelector('button');
 let text2=document.querySelector('#text2');
+let check=0;
 
+btn.addEventListener('click',()=>{
 
-    btn.addEventListener('click',()=>{
-    
-        if (btn.textContent== "Add Friend") 
-        {
-        text2.textContent='Friends';
+    if (check ==0) 
+    {
+        text2.innerHTML="Friends";
         text2.style.color='green';
-        btn.textContent='Remove'; }
-        else
-        {
-        text2.textContent='Stranger';
+        btn.innerHTML="Remove Friend";
+        check=1;
+    } 
+    else 
+    {
+        text2.innerHTML="Strangers";
         text2.style.color='red';
-        btn.textContent='Add Friend';
-        }
-    
-    })    
+        btn.innerHTML="Add Friend"
+        check=0;
+    }
+
+})
+
 
