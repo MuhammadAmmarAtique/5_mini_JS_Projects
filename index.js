@@ -1,4 +1,4 @@
-// 1. Activated "Adding Friends" feature by using both both buttons
+// 1. Activated "Adding Friends" feature by using both both buttons  (bad way)
 
 // let b1=document.querySelector('#b1');
 // let b2=document.querySelector('#b2');
@@ -15,7 +15,7 @@
 //     text2.style.color='green';
 // })
 
-// 2. Activated "Adding Friends" feature by using 1 button only
+// 2. Activated "Adding Friends" feature by using 1 button only (good way)
 
 // WAY#1
 
