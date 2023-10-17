@@ -33,6 +33,8 @@ width: 100%;
     height: 0.8rem;
     width: 0.8rem;
     border-radius: 50%;
-    background-color: red;
+    background-color:white;
     position:absolute;
+    /* when color of a circle & other html element will be same it will change the color. */
+    mix-blend-mode: difference;
 }
