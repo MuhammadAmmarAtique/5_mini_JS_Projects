@@ -1,0 +1,46 @@
+/* CSS Boiler plate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+ }
+html , body
+{ 
+height: 100%;
+width: 100%;
+}
+/* Main styling starts here */
+body
+{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    height: 18rem;
+    width: 16rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    /* overflow: hidden; */
+    position: relative;
+}
+.container img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position:center;
+}
+.container i
+{
+    font-size: 3.5rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* To accurately center icon inside div i used this */
+    transform: translate(-50%,-50%);
+}
