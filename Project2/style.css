@@ -24,7 +24,7 @@ body
     width: 16rem;
     background-color: white;
     border-radius: 0.5rem;
-    /* overflow: hidden; */
+    overflow: hidden;
     position: relative;
 }
 .container img
@@ -41,6 +41,10 @@ body
     position: absolute;
     top: 50%;
     left: 50%;
-    /* To accurately center icon inside div i used this */
-    transform: translate(-50%,-50%);
+    transition: all 0.4s ease-in-out;
+
+ /* To accurately center icon inside div i used translate(-50%,-50%). */
+ /* Imp note we can only use transform property once so put scale() inside same line */
+
+    transform: translate(-50%,-50%) scale(0);
 }
