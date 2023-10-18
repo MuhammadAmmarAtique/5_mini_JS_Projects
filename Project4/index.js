@@ -21,6 +21,8 @@
 let sections = document.querySelectorAll('.section');
 
     sections.forEach((section) => {
+
+    // let img=section.childNodes[3];  //This will get image as well
     let img = section.querySelector('img'); 
 
     section.addEventListener('mousemove', (details) => {
