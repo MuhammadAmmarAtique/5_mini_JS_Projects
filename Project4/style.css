@@ -18,6 +18,8 @@ color: white;
     height: 100%;
     width: 100%;
     background-color: black;
+    position: relative;
+
 }
 
 .section
@@ -32,15 +34,21 @@ color: white;
 
 .section h1
 {
-  font-size: 4rem;
+    font-size: 4rem;
+    position: relative;
+    z-index: 10;
+    mix-blend-mode: difference;
 }
 
 .section img
 {
-  height: 8rem;
-  width: 8rem;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
-  position: absolute;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    transition: all 0.3s linear;
+    opacity: 0;
+    z-index: 5;
 }
