@@ -12,7 +12,7 @@ width: 100%;
 }
 /* Main styling starts here */
 
-.main
+body
 {
    height: 100%;
    width: 100%;
@@ -29,6 +29,9 @@ width: 100%;
     background-color: white;
     border-radius: 0.5rem;
     overflow: hidden;
+    position: relative;
+    transition: all 0.1s ease-in;
+
 }
 
 #stories
@@ -56,7 +59,7 @@ width: 100%;
     height:4.8rem;
     width: 4.8rem;
     border-radius: 50%;
-    border: 2px solid red;
+    border: 3px solid red;
     overflow: hidden;
     flex: 0 0 auto; /* Prevent flex items from shrinking */
 }   
@@ -66,5 +69,19 @@ width: 100%;
     height: 100%;
     width: 100%;
     object-fit: cover;
-    object-position: bottom;
+    object-position: top;
+}
+
+#show_stories
+{
+    height: 26rem;
+    width: 20rem;
+    /* background-color: red; */
+    position: absolute;
+    top: 0px;
+    display: none;
+    /*  */
+    background-size: cover;
+    background-position: center;
+
 }
