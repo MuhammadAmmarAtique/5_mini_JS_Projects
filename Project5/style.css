@@ -1,0 +1,70 @@
+/* CSS Boiler plate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+ }
+html , body
+{ 
+height: 100%;
+width: 100%;
+}
+/* Main styling starts here */
+
+.main
+{
+   height: 100%;
+   width: 100%;
+   background-color: rgb(139, 96, 64);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#card
+{
+    height: 26rem;
+    width: 20rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+#stories
+{
+    height: 25%;
+    width: 100%;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 0.2rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+/* removed scrollbar use mouse wheel(by holding it) for scrolling through images */
+#stories::-webkit-scrollbar 
+{
+    display: none;
+}
+  
+.story
+{
+    height:4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    border: 2px solid red;
+    overflow: hidden;
+    flex: 0 0 auto; /* Prevent flex items from shrinking */
+}   
+
+.story img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
