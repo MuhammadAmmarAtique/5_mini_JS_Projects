@@ -11,14 +11,18 @@ let arr = [
     { dp: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWFsZSUyMG1vZGVsc3xlbnwwfDF8MHx8fDI%3D", story: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlfGVufDB8MXwwfHx8Mg%3D%3D" },
 ];
 
+let container="";
+
 //using foreach function to show story circles in top
+
 arr.forEach((elem,index)=>{
 
-document.querySelector("#stories").innerHTML += 
+    container += 
+    `<div class="story">
+        <img id="${index}" src="${elem.dp}" alt="Model's pic" > 
+    </div> `;
 
-`<div class="story">
-    <img id="${index}" src="${elem.dp}" alt="Model's pic" > 
-</div> `;
+document.querySelector("#stories").innerHTML =container;
 
 });
 
