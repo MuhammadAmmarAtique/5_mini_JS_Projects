@@ -1,7 +1,3 @@
-Here’s a shortened version of the README without the code:
-
----
-
 # Mini DOM Projects
 
 This repository contains five mini DOM projects that demonstrate basic JavaScript and DOM manipulation skills. Each project is built using `.addEventListener` and `.querySelector` to handle events and interact with the page elements. Each project folder includes three files: `index.html`, `style.css`, and `index.js`.
@@ -38,7 +34,3 @@ This repository contains five mini DOM projects that demonstrate basic JavaScrip
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-Let me know if you need any more changes!
